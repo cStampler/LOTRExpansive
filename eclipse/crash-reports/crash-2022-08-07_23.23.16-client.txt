@@ -1,0 +1,116 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 8/7/22 11:23 PM
+Description: Rendering item
+
+java.lang.NullPointerException: Rendering item
+	at net.minecraft.item.ItemStack.getItemDamage(ItemStack.java:265)
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemIntoGUI(RenderItem.java:419)
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:585)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146977_a(GuiContainer.java:289)
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:114)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1137)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1067)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.item.ItemStack.getItemDamage(ItemStack.java:265)
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemIntoGUI(RenderItem.java:419)
+
+-- Item being rendered --
+Details:
+	Item Type: null
+	Item Aux: ~~ERROR~~ NullPointerException: null
+	Item NBT: null
+	Item Foil: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:585)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_146977_a(GuiContainer.java:289)
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:114)
+
+-- Screen render details --
+Details:
+	Screen name: drealm.block.DRBlockTableArthedain.Gui
+	Mouse location: Scaled: (177, 79). Absolute: (354, 321)
+	Screen size: Scaled: (427, 240). Absolute: (854, 480). Scale factor of 2
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player601'/155, l='MpServer', x=11452.82, y=71.62, z=-10148.21]]
+	Chunk stats: MultiplayerChunkCache: 549, 549
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (0,111,0), Chunk: (at 0,6,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 302793 game time, 44403 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: true), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 82 total; [LOTREntityFish['Fish'/258, l='MpServer', x=11530.90, y=54.51, z=-10149.67], EntityClientPlayerMP['Player601'/155, l='MpServer', x=11452.82, y=71.62, z=-10148.21], DREntityArthedain['Eradan, the Arthedain Man'/158, l='MpServer', x=11452.01, y=70.00, z=-10139.39], LOTREntitySpear['Spear'/159, l='MpServer', x=11447.54, y=69.05, z=-10144.03], LOTREntityRabbit['Rabbit'/160, l='MpServer', x=11441.22, y=68.00, z=-10166.44], LOTREntityButterfly['Butterfly'/288, l='MpServer', x=11377.55, y=90.17, z=-10066.21], EntityItemFrame['entity.ItemFrame.name'/161, l='MpServer', x=11462.50, y=67.50, z=-10148.94], EntityItemFrame['entity.ItemFrame.name'/162, l='MpServer', x=11466.50, y=67.50, z=-10148.94], DREntityWindDwarf['Náli son of Hóin, the Wind Mountains Dwarf'/163, l='MpServer', x=11465.68, y=67.00, z=-10155.52], DREntityArthedain['Hirgon, the Arthedain Man'/291, l='MpServer', x=11386.50, y=66.00, z=-10225.50], DREntityWindDwarf['Jóna daughter of Forin, the Wind Mountains Dwarf'/164, l='MpServer', x=11463.47, y=71.03, z=-10152.07], DREntityArthedain['Morwen, the Arthedain Man'/165, l='MpServer', x=11462.09, y=66.00, z=-10146.56], LOTREntityGundabadOrcArcher['Mauuf, the Gundabad Orc Archer'/293, l='MpServer', x=11510.34, y=21.00, z=-10228.31], DREntityArthedainCaptain['Ingold, the Arthedain Commander'/166, l='MpServer', x=11456.32, y=70.00, z=-10143.06], LOTREntityGundabadOrcArcher['Madrad, the Gundabad Orc Archer'/294, l='MpServer', x=11512.50, y=20.00, z=-10225.50], LOTREntityRabbit['Rabbit'/167, l='MpServer', x=11428.69, y=70.00, z=-10136.47], LOTREntityGundabadOrcArcher['Yoglap, the Gundabad Orc Archer'/295, l='MpServer', x=11510.53, y=20.00, z=-10227.25], LOTREntityButterfly['Butterfly'/168, l='MpServer', x=11449.11, y=73.41, z=-10117.00], LOTREntityRabbit['Rabbit'/169, l='MpServer', x=11435.96, y=68.00, z=-10168.24], DREntityArthedainCaptain['Angbor, the Arthedain Commander'/170, l='MpServer', x=11416.44, y=66.00, z=-10150.75], LOTREntityGundabadOrc['Pushlag, the Gundabad Orc'/171, l='MpServer', x=11450.50, y=64.00, z=-10185.19], LOTREntityRabbit['Rabbit'/172, l='MpServer', x=11426.50, y=71.00, z=-10124.50], LOTREntityRabbit['Rabbit'/173, l='MpServer', x=11435.25, y=70.00, z=-10116.53], LOTREntityButterfly['Butterfly'/174, l='MpServer', x=11445.37, y=75.22, z=-10105.16], LOTREntityButterfly['Butterfly'/175, l='MpServer', x=11454.65, y=64.38, z=-10177.00], LOTREntityRabbit['Rabbit'/176, l='MpServer', x=11468.28, y=70.00, z=-10121.44], LOTREntityGundabadOrc['Urukrad, the Gundabad Orc'/177, l='MpServer', x=11410.56, y=21.00, z=-10117.31], LOTREntityRabbit['Rabbit'/178, l='MpServer', x=11475.25, y=69.00, z=-10122.69], LOTREntityButterfly['Butterfly'/179, l='MpServer', x=11500.33, y=72.16, z=-10116.68], EntityBat['Bat'/180, l='MpServer', x=11504.85, y=36.01, z=-10155.16], LOTREntityButterfly['Butterfly'/181, l='MpServer', x=11434.08, y=75.32, z=-10077.03], LOTREntityBird['Bird'/182, l='MpServer', x=11424.50, y=75.00, z=-10107.50], LOTREntityGundabadOrc['Gobdush, the Gundabad Orc'/183, l='MpServer', x=11406.50, y=67.00, z=-10161.50], EntityBat['Bat'/184, l='MpServer', x=11470.71, y=30.76, z=-10199.46], EntityBat['Bat'/185, l='MpServer', x=11419.66, y=41.88, z=-10196.74], EntityBat['Bat'/186, l='MpServer', x=11490.75, y=42.10, z=-10191.25], LOTREntityGundabadOrcArcher['Yagronk, the Gundabad Orc Archer'/187, l='MpServer', x=11497.50, y=43.00, z=-10187.50], LOTREntityRabbit['Rabbit'/188, l='MpServer', x=11376.56, y=69.00, z=-10147.69], LOTREntityFish['Fish'/189, l='MpServer', x=11519.63, y=49.94, z=-10163.33], LOTREntityRabbit['Rabbit'/190, l='MpServer', x=11424.50, y=69.00, z=-10214.50], LOTREntityRabbit['Rabbit'/191, l='MpServer', x=11427.59, y=68.00, z=-10222.22], EntityBat['Bat'/193, l='MpServer', x=11474.50, y=54.61, z=-10090.84], LOTREntityRabbit['Rabbit'/194, l='MpServer', x=11469.25, y=69.00, z=-10089.72], EntityItem['item.item.lotr:orcBone'/195, l='MpServer', x=11491.69, y=40.13, z=-10192.34], LOTREntityFish['Fish'/196, l='MpServer', x=11472.17, y=59.29, z=-10195.37], EntityBat['Bat'/197, l='MpServer', x=11485.78, y=36.23, z=-10116.20], LOTREntityGundabadOrc['Gobpit, the Gundabad Orc'/198, l='MpServer', x=11509.50, y=42.00, z=-10188.50], DREntityWindDwarfWarrior['Gróin son of Narag, the Wind Mountains Warrior'/199, l='MpServer', x=11479.75, y=68.00, z=-10090.78], LOTREntityButterfly['Butterfly'/200, l='MpServer', x=11473.79, y=76.74, z=-10079.49], LOTREntityButterfly['Butterfly'/201, l='MpServer', x=11495.54, y=69.58, z=-10076.03], LOTREntityBird['Bird'/202, l='MpServer', x=11412.43, y=94.11, z=-10086.28], EntityBat['Bat'/203, l='MpServer', x=11385.84, y=27.81, z=-10198.46], EntityBat['Bat'/204, l='MpServer', x=11411.54, y=42.84, z=-10217.40], LOTREntityButterfly['Butterfly'/205, l='MpServer', x=11374.13, y=73.66, z=-10194.82], EntityBat['Bat'/207, l='MpServer', x=11441.36, y=16.00, z=-10211.67], LOTREntityFish['Fish'/209, l='MpServer', x=11504.45, y=61.31, z=-10227.64], LOTREntityFish['Fish'/210, l='MpServer', x=11516.76, y=61.23, z=-10180.88], LOTREntityGundabadOrc['Mallad, the Gundabad Orc'/211, l='MpServer', x=11515.50, y=39.00, z=-10199.00], LOTREntityGundabadOrc['Maldug, the Gundabad Orc'/212, l='MpServer', x=11517.50, y=39.00, z=-10194.50], LOTREntityGundabadOrc['Urukdush, the Gundabad Orc'/213, l='MpServer', x=11515.50, y=39.00, z=-10198.28], LOTREntityGundabadOrc['Gazmaggot, the Gundabad Orc'/214, l='MpServer', x=11517.50, y=39.00, z=-10195.50], LOTREntityGundabadOrc['Azgûl, the Gundabad Orc'/215, l='MpServer', x=11515.50, y=39.00, z=-10199.75], LOTREntityFish['Fish'/216, l='MpServer', x=11523.47, y=61.15, z=-10194.75], LOTREntityButterfly['Butterfly'/15577, l='MpServer', x=11380.40, y=67.74, z=-10193.45], EntityBat['Bat'/218, l='MpServer', x=11506.22, y=60.10, z=-10100.75], LOTREntityRabbit['Rabbit'/219, l='MpServer', x=11489.50, y=68.00, z=-10080.50], LOTREntityButterfly['Butterfly'/15579, l='MpServer', x=11373.56, y=64.00, z=-10197.43], LOTREntityRabbit['Rabbit'/220, l='MpServer', x=11494.28, y=67.00, z=-10080.31], LOTREntityBird['Bird'/221, l='MpServer', x=11502.69, y=74.12, z=-10103.37], EntityBat['Bat'/226, l='MpServer', x=11439.21, y=16.14, z=-10213.76], LOTREntityGundabadOrcArcher['Targash, the Gundabad Orc Archer'/227, l='MpServer', x=11525.50, y=14.00, z=-10165.50], LOTREntityFish['Fish'/228, l='MpServer', x=11527.91, y=58.39, z=-10178.37], LOTREntityRabbit['Rabbit'/231, l='MpServer', x=11412.38, y=68.00, z=-10224.19], LOTREntityGundabadOrcArcher['Shaglur, the Gundabad Orc Archer'/232, l='MpServer', x=11485.72, y=63.00, z=-10225.78], EntityBat['Bat'/236, l='MpServer', x=11379.93, y=14.11, z=-10218.78], LOTREntityFish['Fish'/242, l='MpServer', x=11531.32, y=56.75, z=-10220.43], LOTREntityButterfly['Butterfly'/243, l='MpServer', x=11531.44, y=78.30, z=-10074.80], LOTREntityButterfly['Butterfly'/245, l='MpServer', x=11406.95, y=80.25, z=-10071.44], EntityBat['Bat'/247, l='MpServer', x=11392.25, y=17.10, z=-10226.25], EntityBat['Bat'/248, l='MpServer', x=11388.72, y=48.00, z=-10226.70], LOTREntityRabbit['Rabbit'/250, l='MpServer', x=11404.69, y=68.00, z=-10228.34], LOTREntityGundabadOrc['Nûzsha, the Gundabad Orc'/254, l='MpServer', x=11530.47, y=37.00, z=-10205.34]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2566)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:984)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_202, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 849206376 bytes (809 MB) / 2186280960 bytes (2085 MB) up to 3804758016 bytes (3628 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1558} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJAAAA	lotr{Update v36.14 for Minecraft 1.7.10} [The Lord of the Rings Mod] (amogus.jar) 
+	UCHIJAAAA	drealm{3.0} [Polska] (morebooze-BETA+1.0.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 516.59' Renderer: 'NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 516.59, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="amogus">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/amogus.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

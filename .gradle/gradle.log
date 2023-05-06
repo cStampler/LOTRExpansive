@@ -1,0 +1,684 @@
+WARNING: You are using an unsupported version of ForgeGradle.
+Please consider upgrading to ForgeGradle 4 and helping in the efforts to get old versions working on the modern toolchain.
+See https://gist.github.com/TheCurle/fe7ad3ede188cbdd15c235cc75d52d4a for more info on contributing.
+#################################################
+         ForgeGradle 1.2.2-g2ea0336        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:compileApiJava NO-SOURCE
+:processApiResources NO-SOURCE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava
+Download https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
+Download https://maven.minecraftforge.net/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+Download https://maven.minecraftforge.net/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+Download https://maven.minecraftforge.net/com/typesafe/config/1.2.1/config-1.2.1.jar
+Download https://maven.minecraftforge.net/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+Download https://maven.minecraftforge.net/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+Download https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar
+Download https://maven.minecraftforge.net/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar
+Download https://maven.minecraftforge.net/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+Download https://maven.minecraftforge.net/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+Download https://maven.minecraftforge.net/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+Download https://maven.minecraftforge.net/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+Download https://maven.minecraftforge.net/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+Download https://maven.minecraftforge.net/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar
+Download https://libraries.minecraft.net/lzma/lzma/0.0.1/lzma-0.0.1.jar
+Download https://libraries.minecraft.net/com/mojang/realms/1.3.5/realms-1.3.5.jar
+Download https://maven.minecraftforge.net/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+Download https://maven.minecraftforge.net/java3d/vecmath/1.3.1/vecmath-1.3.1.jar
+Download https://maven.minecraftforge.net/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar
+Download https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar
+Download https://libraries.minecraft.net/com/paulscode/codecjorbis/20101023/codecjorbis-20101023.jar
+Download https://libraries.minecraft.net/com/paulscode/codecwav/20101023/codecwav-20101023.jar
+Download https://libraries.minecraft.net/com/paulscode/libraryjavasound/20101123/libraryjavasound-20101123.jar
+Download https://libraries.minecraft.net/com/paulscode/librarylwjglopenal/20100824/librarylwjglopenal-20100824.jar
+Download https://libraries.minecraft.net/com/paulscode/soundsystem/20120107/soundsystem-20120107.jar
+Download https://maven.minecraftforge.net/io/netty/netty-all/4.0.10.Final/netty-all-4.0.10.Final.jar
+Download https://maven.minecraftforge.net/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar
+Download https://maven.minecraftforge.net/commons-io/commons-io/2.4/commons-io-2.4.jar
+Download https://maven.minecraftforge.net/commons-codec/commons-codec/1.9/commons-codec-1.9.jar
+Download https://maven.minecraftforge.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar
+Download https://maven.minecraftforge.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar
+Download https://libraries.minecraft.net/com/mojang/authlib/1.5.16/authlib-1.5.16.jar
+Download https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar
+Download https://maven.minecraftforge.net/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar
+Download https://maven.minecraftforge.net/org/lwjgl/lwjgl/lwjgl/2.9.1/lwjgl-2.9.1.jar
+Download https://maven.minecraftforge.net/org/lwjgl/lwjgl/lwjgl_util/2.9.1/lwjgl_util-2.9.1.jar
+Download https://libraries.minecraft.net/tv/twitch/twitch/5.16/twitch-5.16.jar
+Download https://maven.minecraftforge.net/org/scala-lang/scala-actors/2.11.0/scala-actors-2.11.0.jar
+Download https://maven.minecraftforge.net/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+Download https://maven.minecraftforge.net/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+Download https://maven.minecraftforge.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar
+Download https://maven.minecraftforge.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar
+Download https://maven.minecraftforge.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar
+Download https://libraries.minecraft.net/tv/twitch/twitch-platform/5.16/twitch-platform-5.16-natives-windows-32.jar
+Download https://libraries.minecraft.net/tv/twitch/twitch-platform/5.16/twitch-platform-5.16-natives-windows-64.jar
+Download https://libraries.minecraft.net/tv/twitch/twitch-platform/5.16/twitch-platform-5.16-natives-osx.jar
+Download https://libraries.minecraft.net/tv/twitch/twitch-external-platform/4.5/twitch-external-platform-4.5-natives-windows-32.jar
+Download https://libraries.minecraft.net/tv/twitch/twitch-external-platform/4.5/twitch-external-platform-4.5-natives-windows-64.jar
+Download https://maven.minecraftforge.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-windows.jar
+Download https://maven.minecraftforge.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-linux.jar
+Download https://maven.minecraftforge.net/org/lwjgl/lwjgl/lwjgl-platform/2.9.1/lwjgl-platform-2.9.1-natives-osx.jar
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:processResources
+:classes
+:jar
+:getVersionJsonUnexpected reponse 403 from http://s3.amazonaws.com/Minecraft.Download/versions/1.7.10/1.7.10.json
+
+:extractUserDev
+Download https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.10-10.13.4.1558-1.7.10/forge-1.7.10-10.13.4.1558-1.7.10-userdev.jar
+:extractUserDev UP-TO-DATE
+:extractNatives UP-TO-DATE
+:getAssetsIndexUnexpected reponse 403 from https://s3.amazonaws.com/Minecraft.Download/indexes/1.7.10.json
+
+:getAssets
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:runClient
+[11:01:16] [main/INFO] [GradleStart]: Extra: []
+[11:01:16] [main/INFO] [GradleStart]: Found and added coremod: lotr.common.coremod.LOTRLoadingPlugin
+[11:01:16] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Firma/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[11:01:16] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[11:01:16] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[11:01:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:01:16] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[11:01:16] [main/INFO] [FML]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[11:01:16] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_342, running on Windows 10:amd64:10.0, installed at C:\Users\Firma\.jdks\corretto-1.8.0_342\jre
+[11:01:16] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[11:01:16] [main/INFO] [FML]: Found a command line coremod : lotr.common.coremod.LOTRLoadingPlugin
+[11:01:16] [main/INFO] [STDOUT]: [io.gitlab.dwarfyassassin.lotrucp.core.UCPCoreMod:<clinit>:23]: LOTR-UCP: Found core mod.
+[11:01:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:01:16] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[11:01:16] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[11:01:16] [main/INFO] [GradleStart]: Injecting location in coremod lotr.common.coremod.LOTRLoadingPlugin
+[11:01:16] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:01:16] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[11:01:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:01:16] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:01:16] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:01:16] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:01:16] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[11:01:17] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[11:01:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:01:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[11:01:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:01:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:01:17] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[11:01:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[11:01:17] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[11:01:17] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEntityClientPlayerMP:1951]: LOTRCore: Patched method func_110318_g
+[11:01:17] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEntityPlayer:958]: LOTRCore: Patched method canEat
+[11:01:17] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEntityLivingBase:1030]: LOTRCore: Patched method onDeath
+[11:01:17] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEntityLivingBase:1005]: LOTRCore: Patched method getTotalArmorValue
+[11:01:17] [main/INFO]: Setting user: Player343
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockStone:274]: LOTRCore: Added method getIcon
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockStone:306]: LOTRCore: Added method getIcon
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockGrass:342]: LOTRCore: Patched method updateTick
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockDirt:397]: LOTRCore: Patched method damageDropped
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockDirt:412]: LOTRCore: Patched method createStackedBlock
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockDirt:429]: LOTRCore: Patched method getSubBlocks
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockDirt:446]: LOTRCore: Patched method getDamageValue
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockDirt:383]: LOTRCore: Patched method <clinit>
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockStaticLiquid:484]: LOTRCore: Patched method updateTick
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockPistonBase:856]: LOTRCore: Patched method onBlockEventReceived 1 times
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockPistonBase:856]: LOTRCore: Patched method canExtend 1 times
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockPistonBase:856]: LOTRCore: Patched method tryExtend 1 times
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockFire:557]: LOTRCore: Patched method updateTick
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockFire:594]: LOTRCore: Patched method tryCatchFire
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockFence:635]: LOTRCore: Patched method canConnectFenceTo
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockFence:649]: LOTRCore: Patched method func_149825_a
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockTrapdoor:757]: LOTRCore: Patched method getRenderType
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockTrapdoor:729]: LOTRCore: Patched method canPlaceBlockOnSide
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockTrapdoor:743]: LOTRCore: Patched method func_150119_a
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockCauldron:887]: LOTRCore: Patched method getRenderType
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockWall:793]: LOTRCore: Patched method canConnectWallTo
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchBlockAnvil:927]: LOTRCore: Added method getCollisionBoundingBoxFromPool
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchPotionDamage:1857]: LOTRCore: Patched method func_111183_a
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEntityMinecart:1229]: LOTRCore: Patched method func_145821_a
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchItemStack:1771]: LOTRCore: Patched method attemptDamageItem
+[11:01:18] [main/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEntityHorse:1092]: LOTRCore: Patched method moveEntityWithHeading
+[11:01:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:01:19] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchRenderBlocks:1919]: LOTRCore: Patched method renderBlockByRenderType
+[11:01:19] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 5/6/23 11:01 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_342, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 303281792 bytes (289 MB) / 339738624 bytes (324 MB) up to 3804758016 bytes (3628 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 526.98' Renderer: 'NVIDIA GeForce RTX 3060 Ti/PCIe/SSE2'
+[11:01:19] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[11:01:19] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1558 Initialized
+[11:01:19] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[11:01:19] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[11:01:19] [Client thread/INFO] [LOTR-UCP]: Running patcher FML for cpw.mods.fml.common.LoadController
+[11:01:19] [Client thread/INFO] [LOTR-UCP]: Patched the FML load controller.
+[11:01:19] [Client thread/INFO] [LOTR-UCP]: Ran all active patches.
+[11:01:19] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[11:01:19] [Client thread/INFO] [FML]: Searching C:\Users\Firma\Desktop\More-Booze-1.7.10-main\eclipse\mods for mods
+[11:01:20] [Client thread/WARN] [FML]: Zip file en_US.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file es_MX.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file fi_FI.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file fr_FR.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file hr_HR.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file hu_HU.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file it_IT.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file ja_JP.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file nl_NL.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file pt_BR.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file readme.txt failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:20] [Client thread/WARN] [FML]: Zip file zh_CN.lang failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:228) ~[?:1.8.0_342]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:157) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:171) ~[?:1.8.0_342]
+	at java.util.jar.JarFile.<init>(JarFile.java:135) ~[?:1.8.0_342]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_342]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[11:01:23] [Client thread/WARN] [drealm]: Mod drealm is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.1
+[11:01:23] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[11:01:23] [Client thread/INFO] [LOTR-UCP]: Loaded 0 mod patches.
+[11:01:23] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, lotr, drealm] at CLIENT
+[11:01:23] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, lotr, drealm] at SERVER
+[11:01:23] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchFMLNetworkHandler:2038]: LOTRCore: Patched method getEntitySpawningPacket
+[11:01:24] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEntityLightningBolt:1130]: LOTRCore: Patched method <init>
+[11:01:24] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEntityLightningBolt:1176]: LOTRCore: Patched method <init>: 2 instances of World.setBlock()
+[11:01:24] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEntityLightningBolt:1176]: LOTRCore: Patched method onUpdate: 1 instances of World.setBlock()
+[11:01:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Lord of the Rings Mod, FMLFileResourcePack:Dwarven Realm
+[11:01:24] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[11:01:24] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[11:01:24] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[11:01:24] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[11:01:24] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[11:01:24] [Client thread/INFO]: LOTR: Found logger
+[11:01:24] [Client thread/INFO]: LOTR: Registered 144 packet types
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:815)
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:768)
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:689)
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
+[11:01:24] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	... 4 more
+[11:01:25] [Client thread/WARN] [FML]: ****************************************
+[11:01:25] [Client thread/WARN] [FML]: * Illegal extra prefix lotr for name lotr:structureSpawner, invalid registry invocation/invalid name?
+[11:01:25] [Client thread/WARN] [FML]: *  at cpw.mods.fml.common.registry.GameData.registerItem(GameData.java:809)
+[11:01:25] [Client thread/WARN] [FML]: *  at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:149)
+[11:01:25] [Client thread/WARN] [FML]: *  at cpw.mods.fml.common.registry.GameRegistry.registerItem(GameRegistry.java:137)
+[11:01:25] [Client thread/WARN] [FML]: *  at drealm.database.DRRegistry.registerItem(DRRegistry.java:234)
+[11:01:25] [Client thread/WARN] [FML]: *  at drealm.database.DRRegistry.preInit(DRRegistry.java:181)
+[11:01:25] [Client thread/WARN] [FML]: *  at drealm.DwarvenRealm.preInit(DwarvenRealm.java:55)...
+[11:01:25] [Client thread/WARN] [FML]: ****************************************
+[11:01:25] [Client thread/INFO] [FML]: Applying holder lookups
+[11:01:25] [Client thread/INFO] [FML]: Holder lookups applied
+[11:01:25] [Client thread/INFO] [FML]: Injecting itemstacks
+[11:01:25] [Client thread/INFO] [FML]: Itemstack injection complete
+[11:01:25] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:01:25] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[11:01:26] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[11:01:26] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:01:26] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[11:01:26] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:01:26] [Sound Library Loader/INFO]: Sound engine started
+[11:01:28] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
+[11:01:28] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[11:01:30] [Client thread/INFO]: LOTRLore: Category ruins has loaded 13 lore texts, of which 5 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category shire has loaded 20 lore texts, of which 11 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category bree has loaded 14 lore texts, of which 12 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category blue_mountains has loaded 8 lore texts, of which 5 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category lindon has loaded 11 lore texts, of which 10 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category eriador has loaded 14 lore texts, of which 14 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category rivendell has loaded 24 lore texts, of which 22 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category eregion has loaded 7 lore texts, of which 6 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category dunland has loaded 6 lore texts, of which 5 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category gundabad has loaded 4 lore texts, of which 4 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category angmar has loaded 5 lore texts, of which 5 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category woodland_realm has loaded 4 lore texts, of which 4 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category dol_guldur has loaded 4 lore texts, of which 4 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category dale has loaded 14 lore texts, of which 12 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category durins_folk has loaded 13 lore texts, of which 6 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category lothlorien has loaded 10 lore texts, of which 10 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category rohan has loaded 5 lore texts, of which 2 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category isengard has loaded 4 lore texts, of which 3 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category gondor has loaded 21 lore texts, of which 16 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category mordor has loaded 6 lore texts, of which 6 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category dorwinion has loaded 7 lore texts, of which 5 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category rhun has loaded 9 lore texts, of which 5 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category harnennor has loaded 12 lore texts, of which 9 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category southron has loaded 16 lore texts, of which 14 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category umbar has loaded 18 lore texts, of which 16 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category nomad has loaded 8 lore texts, of which 5 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category gulf has loaded 9 lore texts, of which 7 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category far_harad has loaded 0 lore texts, of which 0 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category far_harad_jungle has loaded 0 lore texts, of which 0 rewardable
+[11:01:30] [Client thread/INFO]: LOTRLore: Category half_troll has loaded 0 lore texts, of which 0 rewardable
+[11:01:30] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchDoorInteract:1563]: LOTRCore: Patched method func_151503_a
+[11:01:30] [Client thread/INFO] [FML]: LOTRRoads: Creating roads (reticulating splines)
+[11:01:31] [Client thread/INFO] [FML]: LOTRRoads: Created roads in 1.2095638s
+[11:01:31] [Client thread/INFO] [FML]: LOTRRoads: roads=225, points=1861893, dbEntries=6684, dbPoints=16762221
+[11:01:32] [Client thread/INFO] [FML]: Injecting itemstacks
+[11:01:32] [Client thread/INFO] [FML]: Itemstack injection complete
+[11:01:32] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[11:01:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Lord of the Rings Mod, FMLFileResourcePack:Dwarven Realm
+[11:01:32] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates ja_JP.lang
+[11:01:33] [Client thread/INFO]: Created: 1024x1024 textures/items-atlas
+[11:01:34] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
+[11:01:34] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:01:34] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[11:01:34] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[11:01:34] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:01:34] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:01:34] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[11:01:34] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[11:01:34] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[11:01:34] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[11:01:35] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:01:35] [Sound Library Loader/INFO]: Sound engine started
+[11:01:36] [Client thread/INFO] [FML]: LOTR: Successfully replaced entityrenderer
+[11:01:38] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates zh_CN.lang
+[11:01:42] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:01:42] [Server thread/INFO]: Generating keypair
+[11:01:42] [Server thread/INFO]: Converting map!
+[11:01:42] [Server thread/INFO]: Scanning folders...
+[11:01:42] [Server thread/INFO]: Total conversion count is 0
+[11:01:42] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
+[11:01:42] [Server thread/INFO] [FML]: Applying holder lookups
+[11:01:42] [Server thread/INFO] [FML]: Holder lookups applied
+[11:01:43] [Server thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchSpawnerAnimals:1384]: LOTRCore: Patched method findChunksForSpawning
+[11:01:43] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@6a6edb0d)
+[11:01:43] [Server thread/INFO] [FML]: Loading dimension 101 (New World) (net.minecraft.server.integrated.IntegratedServer@6a6edb0d)
+[11:01:43] [Server thread/WARN]: Unable to find spawn biome
+[11:01:43] [Server thread/INFO] [FML]: Loading dimension 100 (New World) (net.minecraft.server.integrated.IntegratedServer@6a6edb0d)
+[11:01:43] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@6a6edb0d)
+[11:01:43] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@6a6edb0d)
+[11:01:43] [Server thread/INFO]: Preparing start region for level 0
+[11:01:43] [Server thread/INFO] [FML]: LOTR: Loaded 0 conquest zones
+[11:01:43] [Server thread/INFO] [FML]: LOTR: Successfully replaced world info in Utumno
+[11:01:43] [Server thread/INFO] [FML]: LOTR: Successfully replaced world info in MiddleEarth
+[11:01:43] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:01:43] [Server thread/INFO] [FML]: LOTR: Loaded 0 conquest zones
+[11:01:43] [Server thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchFoodStats:1346]: LOTRCore: Patched method addExhaustion
+[11:01:43] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchNetHandlerClient:1990]: LOTRCore: Patched method handleEntityTeleport
+[11:01:43] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchNetHandlerClient:2005]: LOTRCore: Patched method handleEntityMovement
+[11:01:43] [Netty Client IO #0/INFO] [FML]: Server protocol version 2
+[11:01:43] [Netty IO #1/INFO] [FML]: Client protocol version 2
+[11:01:43] [Netty IO #1/INFO] [FML]: Client attempting to join with 5 mods : drealm@3.1,lotr@Update v36.14 for Minecraft 1.7.10,FML@7.10.99.99,Forge@10.13.4.1558,mcp@9.05
+[11:01:43] [Netty IO #1/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
+[11:01:43] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [] at SERVER
+[11:01:43] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[11:01:43] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[11:01:43] [Server thread/INFO]: Player343[local:E:9100e13e] logged in with entity id 4 at (-426.5, 4.0, -215.5)
+[11:01:43] [Server thread/INFO]: Player343 joined the game
+[11:01:43] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates hr_HR.lang
+[11:01:45] [LOTR Update Checker/INFO]: [CHAT] The Lord of the Rings Mod: Update available! (Update v36.15 for Minecraft 1.7.10)
+[11:01:45] [Server thread/INFO]: Player343 has just earned the achievement [Taking Inventory]
+[11:01:45] [Client thread/INFO]: [CHAT] Player343 has just earned the achievement [Taking Inventory]
+[11:01:46] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates es_MX.lang
+[11:01:50] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEnchantmentProtection:1822]: LOTRCore: Patched method getFireTimeForEntity
+[11:01:50] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEnchantmentHelper:1712]: LOTRCore: Patched method getEnchantmentModifierDamage
+[11:01:50] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEnchantmentHelper:1631]: LOTRCore: Patched method getEnchantmentModifierLiving
+[11:01:50] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEnchantmentHelper:1645]: LOTRCore: Patched method func_152377_a
+[11:01:50] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEnchantmentHelper:1672]: LOTRCore: Patched method getKnockbackModifier
+[11:01:50] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEnchantmentHelper:1725]: LOTRCore: Patched method getFireAspectModifier
+[11:01:50] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEnchantmentHelper:1658]: LOTRCore: Patched method getSilkTouchModifier
+[11:01:50] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEnchantmentHelper:1685]: LOTRCore: Patched method getFortuneModifier
+[11:01:50] [Client thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchEnchantmentHelper:1698]: LOTRCore: Patched method getLootingModifier
+[11:01:51] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates fr_FR.lang
+[11:01:57] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates fi_FI.lang
+[11:02:02] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates hu_HU.lang
+[11:02:02] [Server thread/INFO]: Player343 has just earned the Middle-earth achievement [Orocarni Warrior]
+[11:02:02] [Client thread/INFO]: [CHAT] Player343 has just earned the Middle-earth achievement [Orocarni Warrior]
+[11:02:03] [Server thread/INFO] [STDOUT]: [lotr.common.coremod.LOTRClassTransformer:patchPathFinder:1507]: LOTRCore: Patched method func_82565_a
+[11:02:08] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates it_IT.lang
+[11:02:12] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates pt_BR.lang
+[11:02:18] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates nl_NL.lang
+[11:02:23] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates pl_PL.lang
+[11:02:25] [Server thread/INFO]: Player343 has just earned the Middle-earth achievement [Mellon!]
+[11:02:25] [Client thread/INFO]: [CHAT] Player343 has just earned the Middle-earth achievement [Mellon!]
+[11:02:28] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates qya_AA.lang
+[11:02:33] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates de_DE.lang
+[11:02:37] [Server thread/INFO]: [Player343: Cleared the inventory of Player343, removing 388 items]
+[11:02:37] [Client thread/INFO]: [CHAT] Cleared the inventory of Player343, removing 388 items
+[11:02:38] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates fr_CA.lang
+[11:02:44] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates es_AR.lang
+[11:02:48] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates tr_TR.lang
+[11:02:54] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates pt_PT.lang
+[11:02:59] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates en_PT.lang
+[11:03:01] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates sr_SP.lang
+[11:03:05] [LOTR language update/INFO] [FML]: Checking LOTR lang file for updates ru_RU.lang
+[11:04:44] [Client thread/INFO]: Stopping!
+[11:04:44] [Server thread/INFO]: Stopping server
+[11:04:44] [Server thread/INFO]: Saving players
+[11:04:44] [Server thread/INFO]: Saving worlds
+[11:04:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:04:44] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[11:04:44] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[11:04:44] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:04:44] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:04:44] [Server thread/INFO]: Saving chunks for level 'New World'/Utumno
+[11:04:44] [Server thread/INFO]: Saving chunks for level 'New World'/MiddleEarth
+[11:04:44] [Server thread/INFO] [FML]: Unloading LOTR biome variants in Utumno
+[11:04:44] [Server thread/INFO] [FML]: Unloading LOTR biome variants in MiddleEarth
+[11:04:44] [Server thread/INFO] [FML]: Unloading dimension 0
+[11:04:44] [Server thread/INFO] [FML]: Unloading dimension -1
+[11:04:44] [Server thread/INFO] [FML]: Unloading dimension 1
+[11:04:44] [Server thread/INFO] [FML]: Unloading dimension 101
+[11:04:44] [Server thread/INFO] [FML]: Unloading dimension 100
+[11:04:44] [Server thread/INFO] [FML]: Applying holder lookups
+[11:04:44] [Server thread/INFO] [FML]: Holder lookups applied
+[11:04:44] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[11:04:44] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+
+BUILD SUCCESSFUL
+
+Total time: 4 mins 40.64 secs
